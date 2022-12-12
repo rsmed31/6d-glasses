@@ -21,6 +21,17 @@ export function about_us(): JSX.Element {
   const height = useGetHeight();
 
   return (
-    <div> <h1> hellow world</h1></div>
+    <Fragment>
+      <Helmet>
+        <title>{CLUB_NAME}</title>
+      </Helmet>
+
+      <ViewportPanelContainer viewport orientation="horizontal">
+        <PermanentStackPanel data-testid="header" height={PANEL_HEIGHT} position="top">
+          <Header height={PANEL_HEIGHT} />
+        </PermanentStackPanel>
+      <p>ABOUT US</p>
+      </ViewportPanelContainer>
+    </Fragment>
   );
 }
