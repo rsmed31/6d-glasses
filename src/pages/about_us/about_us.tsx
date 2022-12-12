@@ -31,7 +31,7 @@ export function about_us(): JSX.Element {
         <PermanentStackPanel data-testid="header" height={PANEL_HEIGHT} position="top">
           <Header height={PANEL_HEIGHT} />
         </PermanentStackPanel>
-      <h1>COMING SOON..(most likely)</h1>
+      <h1>COMING S00N..(most likely)</h1>
       </ViewportPanelContainer>
     </Fragment>
   );
