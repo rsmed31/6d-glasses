@@ -140,9 +140,11 @@
   text-decoration: none;
   transition: color 0.4s ease;
 }
-h1{
+.nice{
   position: absolute;
-  margin-left: -250px; /*Half the value of width to center div*/
-  margin-top: -100px;
+  width: 100vw;
   font-size:2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
