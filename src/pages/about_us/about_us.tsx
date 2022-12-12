@@ -21,19 +21,6 @@ export function Home(): JSX.Element {
   const height = useGetHeight();
 
   return (
-    <Fragment>
-      <Helmet>
-        <title>{CLUB_NAME}</title>
-      </Helmet>
-
-      <ViewportPanelContainer viewport orientation="horizontal">
-        <PermanentStackPanel data-testid="header" height={PANEL_HEIGHT} position="top">
-          <Header height={PANEL_HEIGHT} />
-        </PermanentStackPanel>
-        <MainPanel data-testid="content">
-          {height !== undefined && height > 0 && <PfpGrid height={height - PANEL_HEIGHT} />}
-        </MainPanel>
-      </ViewportPanelContainer>
-    </Fragment>
+    <div> <h1> hellow world</h1></div>
   );
 }
