@@ -6,7 +6,10 @@ import { CLUB_NAME } from 'config/club';
 import { MIN_GRID_WIDTH } from 'config/sizes';
 import { Header } from 'components/Header';
 import { PfpGrid } from 'components/grids/PfpGrid';
+import { View } from 'react-native'
 import 'styles/css.css';
+import { faMugSaucer } from '@fortawesome/fa-brands fa-twitter'
+
 
 const PANEL_HEIGHT = 100;
 
@@ -38,8 +41,8 @@ export function about_us(): JSX.Element {
                  <img  src="src/assets/images/6d clhb (Instagram Post (Square)).png" alt="Avatar" id="adam" style="width:300px; height:auto; max-width: 100%;"></img>
                </div>
                <div class="flip-card-back" >
-                          <a href="https://twitter.com/y00ts_in_6d">
-                            <FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
+                          <a href="https://twitter.com/y00ts_in_6d"><View><FontAwesomeIcon icon={ faMugSaucer } /> </View></a>
+
                </div>
              </div>
           </div>
