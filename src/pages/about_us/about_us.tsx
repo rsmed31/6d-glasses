@@ -17,7 +17,7 @@ const ViewportPanelContainer = styled(PanelContainer)`
   min-width: ${MIN_GRID_WIDTH}px;
 `;
 
-export function Home(): JSX.Element {
+export function about_us(): JSX.Element {
   const height = useGetHeight();
 
   return (
