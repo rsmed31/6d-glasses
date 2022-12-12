@@ -38,7 +38,9 @@ export function about_us(): JSX.Element {
                  <img  src="src/assets/images/6d clhb (Instagram Post (Square)).png" alt="Avatar" id="adam" style="width:300px; height:auto; max-width: 100%;"></img>
                </div>
                <div class="flip-card-back" >
-                          <a href="https://twitter.com/y00ts_in_6d"><FontAwesomeIcon icon="fa-brands fa-twitter" /></i></a>
+                          <a href="https://twitter.com/y00ts_in_6d">
+                            <FontAwesomeIcon icon="fa-brands fa-twitter" /></i>
+                          </a>
 
                </div>
              </div>
