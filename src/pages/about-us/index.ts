@@ -1,0 +1,1 @@
+export { about-us as default } from './about-us';
