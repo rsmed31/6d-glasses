@@ -1,1 +1,1 @@
-export { about_us as default } from './about-us';
+export { about_us as default } from './about_us';
