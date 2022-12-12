@@ -30,8 +30,10 @@ export function Home(): JSX.Element {
         <PermanentStackPanel data-testid="header" height={PANEL_HEIGHT} position="top">
           <Header height={PANEL_HEIGHT} />
         </PermanentStackPanel>
+        <MainPanel data-testid="content">
+          {height !== undefined && height > 0 && <PfpGrid height={height - PANEL_HEIGHT} />}
+        </MainPanel>
       </ViewportPanelContainer>
-      <p>ABOUT US</p>
     </Fragment>
   );
 }
