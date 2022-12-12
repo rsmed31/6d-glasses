@@ -6,6 +6,7 @@ import { CLUB_NAME } from 'config/club';
 import { MIN_GRID_WIDTH } from 'config/sizes';
 import { Header } from 'components/Header';
 import { PfpGrid } from 'components/grids/PfpGrid';
+import 'styles/css.css'
 
 const PANEL_HEIGHT = 100;
 
