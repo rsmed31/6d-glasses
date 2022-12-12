@@ -32,7 +32,7 @@ export function Header({ height }: HeaderProps): JSX.Element {
           {CLUB_NAME}
         </Typography>
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/about-us"></NavLink>
+            <NavLink to="/about_us"></NavLink>
         <Rhythm ml={3}>
           <Flex data-testid="colors" direction="row">
             {CLUB_COLORS.map(color => (
