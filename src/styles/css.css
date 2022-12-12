@@ -142,6 +142,7 @@
 }
 .nice{
   position: absolute;
+  margin-top:13%;
   width: 100vw;
   font-size:2vh;
   display: flex;
