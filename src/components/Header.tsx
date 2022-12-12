@@ -40,21 +40,17 @@ export function Header({ height }: HeaderProps): JSX.Element {
           </Flex>
         </Rhythm>
       </Flex>
-        <div class="menu-wrap">
-
-    <input type="checkbox" class="toggler">
-    <div class="hamburger"><div></div></div>
-    <div class="menu">
-      <div>
-        <div>
-          <ul>
+       <div class="menu-wrap">
+        <div class="hamburger"></div>
+          <div class="menu">
+            <div>
+             <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about_us">About-us</a></li>
-          </ul>
+            </ul>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
+       </div>
     </HeaderContainer>
   );
 }
