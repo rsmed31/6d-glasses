@@ -6,6 +6,7 @@ import { ErrorBoundary, Paper, PaperProps, SizeProvider, useThemeId } from '@pho
 import { LineLoader } from 'components/LineLoader';
 import FourOhFour from 'pages/FourOhFour';
 import Home from 'pages/Home';
+import CoolNewPage from 'pages/about-us';
 
 const ViewportPaper = styled(Paper)`
   width: 100vw;
@@ -28,6 +29,7 @@ export const AppContent = (props: AppContentProps): React.ReactElement => {
               <Suspense fallback={<LineLoader fixed position="top" />}>
                 <Switch>
                   <Route exact component={Home} path="/" />
+                  <Route component={about-us} path="/about-us" />
                   <Route>
                     <FourOhFour />
                   </Route>
