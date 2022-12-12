@@ -6,7 +6,7 @@ import { ErrorBoundary, Paper, PaperProps, SizeProvider, useThemeId } from '@pho
 import { LineLoader } from 'components/LineLoader';
 import FourOhFour from 'pages/FourOhFour';
 import Home from 'pages/Home';
-import CoolNewPage from 'pages/about-us';
+import about-us from 'pages/about-us';
 
 const ViewportPaper = styled(Paper)`
   width: 100vw;
