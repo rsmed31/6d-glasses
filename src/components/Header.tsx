@@ -4,6 +4,7 @@ import { CLUB_COLORS, CLUB_NAME } from 'config/club';
 import { MAX_GRID_WIDTH } from 'config/sizes';
 import { ColorBox } from 'components/ColorBox';
 import { Y00TsIcon } from 'icons/Y00TsIcon';
+import 'styles/css.css';
 
 const HeaderContainer = styled(Rhythm)`
   align-self: center;
@@ -39,6 +40,21 @@ export function Header({ height }: HeaderProps): JSX.Element {
           </Flex>
         </Rhythm>
       </Flex>
+        <div class="menu-wrap">
+
+    <input type="checkbox" class="toggler">
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+      <div>
+        <div>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about_us">About-us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
     </HeaderContainer>
   );
 }
