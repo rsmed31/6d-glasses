@@ -29,7 +29,7 @@ export const AppContent = (props: AppContentProps): React.ReactElement => {
               <Suspense fallback={<LineLoader fixed position="top" />}>
                 <Switch>
                   <Route exact component={Home} path="/" />
-                  <Route component={about_us} path="/about_us" />
+                  <Route exact component={about_us} path="/about_us" />
                   <Route>
                     <FourOhFour />
                   </Route>
