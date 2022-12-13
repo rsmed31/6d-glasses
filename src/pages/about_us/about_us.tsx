@@ -37,7 +37,7 @@ export function about_us(): JSX.Element {
         <div class="nice"><h1>COMING S00N..(most likely)</h1></div>
            <div class="flip-card">
              <div class="flip-card-inner" >
-               <div class="flip-card-front" style="justify-content: center; align-items:center;">
+               <div class="flip-card-front">
                  <img  src="src/assets/images/y00.png"></img>
                </div>
                <div class="flip-card-back" >
