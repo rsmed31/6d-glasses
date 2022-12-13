@@ -6,7 +6,7 @@ import { CLUB_NAME } from 'config/club';
 import { MIN_GRID_WIDTH } from 'config/sizes';
 import { Header } from 'components/Header';
 import { PfpGrid } from 'components/grids/PfpGrid';
-import { Link } from 'react-router';
+
 
 import 'styles/css.css';
 
@@ -41,7 +41,6 @@ export function about_us(): JSX.Element {
                  <img  src="src/assets/images/y00.png"></img>
                </div>
                <div class="flip-card-back" >
-                          <Link to="https://twitter.com/y00ts_in_6d">twitter</Link>
 
                </div>
              </div>
