@@ -35,15 +35,6 @@ export function about_us(): JSX.Element {
           <Header height={PANEL_HEIGHT} />
         </PermanentStackPanel>
         <div class="nice"><h1>COMING S00N..(most likely)</h1></div>
-           <div class="flip-card">
-             <div class="flip-card-inner" >
-               <div class="flip-card-front">
-               </div>
-               <div class="flip-card-back" >
-
-               </div>
-             </div>
-          </div>
       </ViewportPanelContainer>
     </Fragment>
   );
