@@ -6,6 +6,8 @@ import { CLUB_NAME } from 'config/club';
 import { MIN_GRID_WIDTH } from 'config/sizes';
 import { Header } from 'components/Header';
 import { PfpGrid } from 'components/grids/PfpGrid';
+import { Link } from 'react-router';
+
 import 'styles/css.css';
 
 
@@ -36,10 +38,10 @@ export function about_us(): JSX.Element {
            <div class="flip-card">
              <div class="flip-card-inner" >
                <div class="flip-card-front" style="justify-content: center; align-items:center;">
-                 <img  src="src/assets/images/6d clhb (Instagram Post (Square)).png" alt="Avatar" id="adam" style="width:300px; height:auto; max-width: 100%;"></img>
+                 <img  src="src/assets/images/y00.png"></img>
                </div>
                <div class="flip-card-back" >
-                          <a href="https://twitter.com/y00ts_in_6d">twitter</a>
+                          <Link to="https://twitter.com/y00ts_in_6d">twitter</Link>
 
                </div>
              </div>
