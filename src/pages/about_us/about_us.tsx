@@ -38,7 +38,6 @@ export function about_us(): JSX.Element {
            <div class="flip-card">
              <div class="flip-card-inner" >
                <div class="flip-card-front">
-                 <img  src="src/assets/images/y00.png"></img>
                </div>
                <div class="flip-card-back" >
 
