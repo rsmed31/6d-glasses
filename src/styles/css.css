@@ -141,10 +141,6 @@
   transition: color 0.4s ease;
 }
 .nice{
-  position: absolute;
-  margin-top:21%;
-  width: 100vw;
-  font-size:2vh;
   display: flex;
   align-items: center;
   justify-content: center;
