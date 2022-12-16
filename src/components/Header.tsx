@@ -29,7 +29,7 @@ export function Header({ height }: HeaderProps): JSX.Element {
           <div class="menu"><div>
             <div><ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/about_us">Vision</a></li>
+            <li><a href="/roadmap">Roadmap</a></li>
             </ul></div>
           </div></div>
       </div>
