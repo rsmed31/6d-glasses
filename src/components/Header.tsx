@@ -39,8 +39,7 @@ export function Header({ height }: HeaderProps): JSX.Element {
             ))}
           </Flex>
         </Rhythm>
-      </Flex>
-      <div class="menu-wrap">
+       <div class="menu-wrap">
         <input type="checkbox" class="toggler"></input>
            <div class="hamburger"><div></div></div>
           <div class="menu"><div>
@@ -50,6 +49,7 @@ export function Header({ height }: HeaderProps): JSX.Element {
             </ul></div>
           </div></div>
       </div>
+      </Flex>
     </HeaderContainer>
   );
 }
