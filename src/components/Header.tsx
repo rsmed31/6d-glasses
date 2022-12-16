@@ -23,6 +23,16 @@ export function Header({ height }: HeaderProps): JSX.Element {
   return (
     <HeaderContainer grouped px={7}>
       <Flex full alignItems="center" direction="row" justifyContent="center">
+       <div class="menu-wrap">
+        <input type="checkbox" class="toggler"></input>
+           <div class="hamburger"><div></div></div>
+          <div class="menu"><div>
+            <div><ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about_us">Vision</a></li>
+            </ul></div>
+          </div></div>
+      </div>
         <Rhythm mt={logoOffset}>
           <Y00TsIcon height={height * 0.6} />
         </Rhythm>
@@ -39,16 +49,6 @@ export function Header({ height }: HeaderProps): JSX.Element {
             ))}
           </Flex>
         </Rhythm>
-       <div class="menu-wrap">
-        <input type="checkbox" class="toggler"></input>
-           <div class="hamburger"><div></div></div>
-          <div class="menu"><div>
-            <div><ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about_us">Vision</a></li>
-            </ul></div>
-          </div></div>
-      </div>
       </Flex>
     </HeaderContainer>
   );
